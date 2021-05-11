@@ -1,6 +1,6 @@
 body {
 	font-family: 'Inconsolata', monospace;
-	color: blue;
+	color: #555;
 	width: 95%;
 	margin: 0 auto;
 	padding: 0%;
@@ -8,8 +8,6 @@ body {
 	text-align: center;
 	height: 3000px;    
 }
-
-
 
 .topArea{
     background-color: rgb(1, 1, 29);
@@ -24,6 +22,10 @@ img{
 
 .titulo{
    padding: 0%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.60)), url(img/brain-cells-in-blue.jpg);
+   /*height: 100vh;*/
+   background-size: cover;
+   background-position: center;
 }
 /*
 .menu-section{
@@ -32,6 +34,12 @@ img{
     margin: 0 auto;
 }
 */
+
+.infos{
+    
+    background-color: white;
+    height: 50px;
+}
 .main{
     padding: 0%;
    /* background-color: white; */
@@ -60,11 +68,24 @@ img{
 }
 
 .menu li a:hover{
-    background-color: rgb(8, 2, 39);
+    background-color: rgb(2, 1, 8);
     color: burlywood;
 }
 
 /*============================================== Main ==============================================*/
+
+.maincontainer{
+   padding: 20px;
+}
+
+
+
+input{
+    width: 100%;
+    height: 30px;   
+}
+
+
 
 .styled-table {
     border-collapse: collapse;
@@ -129,6 +150,7 @@ tr:hover {background-color:#b31c1c;}
     .maincontainer{
         display: flex;
         justify-content: space-around;
+        padding: 20px;
     }
 
     table{

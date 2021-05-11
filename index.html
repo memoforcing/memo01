@@ -8,13 +8,11 @@
     <title>Memo01</title>
 </head>
 <body>
-    <div class="upContainer">
-
-        
+    <div class="upContainer">        
 
             <div class="topArea">
                 <div class="titulo">
-                   <img src="repeat2.png"> 
+                   <img src="img/repeat2.png"> 
                 <!--   <h1>Memo-Forcing</h1> -->
                 </div>    
             </div>
@@ -37,12 +35,15 @@
             <div class="main">
                 <div class="maincontainer">
                     <div class="maininicio">
-                        <h2>Perguntas - Respostas</h2>
+                        <div class="perguntaRespostaTxb">
+                            <input type="text" placeholder="Pergunta">
+                            <input type="text" placeholder="Resposta"> 
+                        </div>                       
                         <table class="styled-table">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Points</th>
+                                    <th>Perguntas</th>
+                                    <th>Respostas</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -63,12 +64,41 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="maininicio">
-                        <h2>Seleção</h2>
+                    <div class="maininicio">              
+                        
+                        <div class="infos">                           
+                            <h2>Informações</h2>
+                        </div>         
+                         
+                            <table class="styled-table">
+                                <thead>
+                                    <tr>
+                                        <th>Pergunta</th>
+                                        <th>Resposta</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Dom</td>
+                                        <td>6000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lana</td>
+                                        <td>Nara</td>
+                                    </tr>
+                                    <tr class="active-row">
+                                        <td>Melissa</td>
+                                        <td>5150</td>
+                                    </tr>
+                                    
+                                    <!-- and so on... -->
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
         </div> 
-    
+    </dic>
 </body>
 </html>
